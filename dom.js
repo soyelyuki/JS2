@@ -32,3 +32,26 @@ for (valor in todosLosDivs){
     }
 }
 seccion.append(hr);
+
+// Conseguir elementos por su clase CSS
+
+var divsRojos = document.getElementsByClassName('rojo'); 
+var divsAmarillo = document.getElementsByClassName('amarillo');
+divsAmarillo[0].style.background = "yellow";
+var div;
+for(div in divsRojos){
+    if(divsRojos[div].className == "rojo"){
+        divsRojos[div].style.background = "red";
+    }
+}
+
+//Query selector ( para seleccionar un elemento );
+// pero si hago document.querySelectorAll los eligo a todos 
+var id =  document.querySelector("#encabezado");
+console.log(id);
+
+var claseRojo = document.querySelector ("div.rojo"); 
+console.log(claseRojo);
+
+var etiqueta =  document.querySelector("div");
+console.log(etiqueta);
