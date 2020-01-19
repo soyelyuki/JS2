@@ -11,9 +11,6 @@ window.addEventListener('load', function(){
       }else{
         encabezado.style.fontsize = "50px";
       }
-
-
-
     //document.querySelector("h1").style.fontSize = "50px"
-}, 1000);
+}, 2000);
 });
