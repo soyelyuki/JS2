@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EJercicio DOm, Eventos y funciones </title>
+    <script type="text/javascript" src="Ejerciciodom.js"></script>
+    <style>
+    .box{
+        width: 250px;
+        height: 250px;
+        float: left;
+        margin: 20px;
+        }
+    .dashed{
+            border: 3px dashed black;
+        }
+    </style>
+    
+</head>
+<body bgcolor="grey">
+    
+    <h1>Ejercicios DOm, Eventosmy funciones - curso completo</h1>
+    <p>
+        <div class="box">
+        <form action="#" method="post" id="formulario" onsubmit="return false">
+            <label for="nombre">Nombre  ;</label></br>
+            <input type="text" name="nombre" id="nombre" /></br>
+          
+            <label for="apellidos">apellidos;</label></br>
+            <input type="text" name="apellidos" id="apellidos" /></br>
+          
+            <label for="edad">Edad ;   </label></br>
+            <input type="number" name="edad" id="edad" /></br>
+          
+            <input type="submit" value="Enviar" id="submit"></br>
+
+        </form>
+    </div>
+    <div class="box dashed">
+    <h3>Informacion del Usuario</h3>
+        <hr>
+            <p id="p_nombre">
+            nombre:<span></span>
+            </p>
+            <p id="p_apellidos">
+            Apellido:<span></span>
+            </p>
+            <p id="p_edad">
+            Edad:<span></span>
+        </p>
+    </div>
+  
+    </p>
+
+</body>
+</html>
