@@ -8,7 +8,7 @@ window.addEventListener('load', () =>{
     // console.log("me has dado click");
 
         var bg = boton.style.background;
-        console.log("me has dado clickl");
+        console.log("me has dado click");
         if(bg =="green"){
             boton.style.background ="red";
         }else{
